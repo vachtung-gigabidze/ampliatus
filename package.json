@@ -1,6 +1,16 @@
 {
-  "name": "excel_js",
-  "version": "0.0.0",
+  "name": "ampliatus",
+  "version": "0.0.1",
+  "description": "frontend axapta tables crud",
+  "keywords": [
+    "vite",
+    "pug",
+    "rescript",
+    "html"
+  ],
+  "author": {
+    "name": "dmitrii ziidik"
+  },
   "scripts": {
     "re:build": "rescript",
     "re:start": "rescript build -w",
@@ -10,10 +20,14 @@
   },
   "devDependencies": {
     "@jihchi/vite-plugin-rescript": "^1.1.2",
+    "postcss-nesting": "^8.0.1",
     "rescript": "^9.1.4",
     "sass": "^1.40.1",
     "vite": "^2.5.7",
+    "vite-plugin-fonts": "^0.2.2",
     "vite-plugin-pug": "^0.3.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }

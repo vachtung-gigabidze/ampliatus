@@ -4,12 +4,7 @@
 import './style.css'
 ;
 
-var app = document.querySelector("#app");
-
-app.innerHTML("<h1>Hello Vite!</h1>");
-
 export {
-  app ,
   
 }
 /*  Not a pure module */
